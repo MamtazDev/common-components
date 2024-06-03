@@ -11,6 +11,7 @@ import Button from './components/Button/Button.jsx';
 import Accordion from './components/Accordion/Accordion.jsx';
 import Tabs from './components/Tabs/Tabs.jsx';
 import Header from './components/NavBar/Header.jsx';
+import Sliders from './components/Slider/Sliders.jsx';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: '/navbar',
         element: <Header />
+      },
+      {
+        path: '/sliders',
+        element: <Sliders />
       },
     ]
   },
