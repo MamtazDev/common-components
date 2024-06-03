@@ -49,6 +49,10 @@ const sidebarData = [
                 name: "Timeline",
                 path: '/switch',
             },
+            {
+                name: "Slider",
+                path: '/slider',
+            },
         ]
 
     },

@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import headerData from '../../utils/headerData';
 
 const Header3 = () => {
+    
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const [flyoutMenuOpen, setFlyoutMenuOpen] = useState(false);
 
@@ -44,7 +45,6 @@ const Header3 = () => {
                     <div className="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0">
                         <a href="#" className="whitespace-no-wrap text-base leading-6 font-medium text-gray-300 hover:text-gray-900">Sign in</a>
                         <a href="#" className="whitespace-no-wrap text-base leading-6 font-medium text-gray-300 hover:text-gray-900">Sign up</a>
-
                     </div>
                 </div>
                 {mobileMenuOpen && (

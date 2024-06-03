@@ -23,7 +23,6 @@ const headerData = [
         name: "Tabs",
         path: '/tabs',
     },
-
 ]
 
 export default headerData;
