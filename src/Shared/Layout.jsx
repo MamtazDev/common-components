@@ -4,13 +4,9 @@ import Sidebar from './Sidebar'
 const Layout = () => {
     return (
         <>
-            <div className='flex'>
-                <Sidebar />
-
-            </div>
-
+            <Sidebar />
         </>
     )
 }
 
-export default Layout
+export default Layout;

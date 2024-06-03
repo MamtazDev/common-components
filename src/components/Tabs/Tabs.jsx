@@ -50,7 +50,6 @@ const Tabs = () => {
     
     export default Tab1;
     `;
-
     const code2 = `
     import React, { useState } from 'react';
     
@@ -161,6 +160,10 @@ const Tabs = () => {
         );
     };
     `;
+
+
+
+
     return (
         <>
             <PreviewCode text="Tab One" design={<Tab1 tabs={tabs}></Tab1>} code={code1} />

@@ -10,6 +10,7 @@ import Layout from './Shared/Layout.jsx';
 import Button from './components/Button/Button.jsx';
 import Accordion from './components/Accordion/Accordion.jsx';
 import Tabs from './components/Tabs/Tabs.jsx';
+import Header from './components/NavBar/Header.jsx';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
         path: '/tabs',
         element: <Tabs />
       },
+      {
+        path: '/navbar',
+        element: <Header />
+      },
     ]
   },
 ]);
@@ -36,6 +41,5 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-
   </React.StrictMode>,
 )
